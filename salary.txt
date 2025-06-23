@@ -1,6 +1,6 @@
 Alex Korp,8100
 Nikita Borisenko,8250
-Sitarama Raju,10500
-Alex Korp,15000
-Nikita Borisenko,9500
+Fitarama Raju,10500
+Nick Korp,15000
+Leo Borisenko,9500
 Sitarama Raju,12000
