@@ -20,9 +20,10 @@ def dir_find_file(path_dir, level=0):
 path_main = input('Введіть директорію для побудови дерева каталогів: ')
 path = Path(path_main)
 if not path.exists():
-    print(f"Папки '{path}' не існує.")
+    print(f"Папки '{path}' не існує.") # Перевірка наявності папки
 elif not path.is_dir():
-    print(f"'{path}' — це не директорія.")
+    print(f"'{path}' — це не директорія.") # перевірка чи це папка
 else:
     dir_find_file(path_main)
+
 
