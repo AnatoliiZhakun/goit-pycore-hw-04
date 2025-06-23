@@ -1,7 +1,6 @@
 from colorama import Fore
 from pathlib import Path
 
-
 def dir_find_file(path_dir, level=0):
     path = Path(path_dir)
     
@@ -15,7 +14,6 @@ def dir_find_file(path_dir, level=0):
         else:
             # виводимо файл з відступом
             print(Fore.GREEN + f"{' '* (level+1) *3 +'├──'} {item.name}" + Fore.RESET)
-
 
 path_main = input('Введіть директорію для побудови дерева каталогів: ')
 path = Path(path_main)
